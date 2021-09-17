@@ -1,7 +1,7 @@
 import webbrowser as web
 import random
 import time
-rn = random.randrange(1,15) 
+rn = random.randrange(1,34) 
 
 if rn == 1:
     web.open("https://google.com")
@@ -121,4 +121,20 @@ elif rn == 29:
 
 elif rn == 30:
     web.open("https://www.officedepot.com/")
+    time.sleep(1)
+
+elif rn == 31:
+    web.open("https://www.nitrotype.com/garage")
+    time.sleep(1)
+
+elif rn == 32:
+    web.open("https://www.e-hallpass.com/login")
+    time.sleep(1)
+
+elif rn == 33:
+    web.open("https://www.foodnetwork.com/recipes/alton-brown/creme-brulee-recipe-1916827")
+    time.sleep(1)
+
+elif rn == 34:
+    web.open("https://www.bing.com/search?q=Freddie+Combs+dies&filters=tnTID%3a%22494D7A02-549E-4f78-8A75-E1BBE102A720%22+tnVersion%3a%224231598%22+segment%3a%22popularnow.carousel%22+tnCol%3a%224%22+tnOrder%3a%22ea1a4584-49d7-4cbf-b74e-43dc7027eb13%22&ecount=15&FORM=SNAPCR")
     time.sleep(1)
